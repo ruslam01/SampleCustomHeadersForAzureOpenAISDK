@@ -9,6 +9,7 @@ At this stage, I decided to take a step back and finally read the email provided
 Unfortunately, custom headers are not yet supported in the AAOA SDK and require a custom HTTP Pipeline be created. Cool. No problem... just errors.
 
 ![LOL](img2.png)
+
 ![Gif1](https://tenor.com/view/angry-mad-fed-up-the-office-steve-carell-gif-5562370.gif)
 
 Welp, as I'm not one to quit until I'm much closer to the finish line, this is an easy fix. Copy, Paste! Once we create our own copy of this class (another win for the partial keyword!), we can finally instantiate our own PipelinePolicy instance!
